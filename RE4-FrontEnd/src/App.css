@@ -1,0 +1,51 @@
+.layout{
+    height: 100vh;
+}
+
+.dragHeader{
+    -webkit-app-region: drag;
+}
+
+.nonDrag{
+    -webkit-app-region: none;
+}
+
+.bt-bar{
+    margin: 0px 3px;
+}
+
+.bg-minimized{
+    background-color: #FFD31D;
+    border-color: #FFD31D;
+}
+
+.bg-minimized:hover{
+    filter: brightness(50%);
+}
+
+.bg-closed{
+    background-color: #EE4266;
+    border-color: #EE4266;
+}
+
+.bg-closed:hover{
+    filter: brightness(50%);
+}
+
+.heder{
+    position: relative;
+    background: #171717;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    padding: 0.2% 10px;
+    -webkit-app-region: drag;
+}
+
+.float-right{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 10px;
+}
